@@ -1,0 +1,225 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 24,
+        "name": "",
+        "description": "Open Blazedemo Website and enter valid details to get the flight details",
+        "id": "flight-ticket-booking-functionality;;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12443217900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the Blazedemo \"http://blazedemo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://blazedemo.com",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinition.navigatetoBlazeDemoUrl(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149275100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter departure city \"Boston\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boston",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinition.enterDepartureCity(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100048100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter destination city \"New York\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.i_enter_destination_city(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602664400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Find Flights",
+            "match": {
+              "location": "stepDefinition.i_click_on_Find_Flights()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34479900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to Flight details Page",
+            "match": {
+              "location": "stepDefinition.i_navigate_to_Flight_details_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 455763800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I choose the flight",
+            "match": {
+              "location": "stepDefinition.i_choose_the_flight()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34336200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I navigate to the next page to enter passanger details",
+            "match": {
+              "location": "stepDefinition.i_navigate_to_the_next_page_to_enter_passanger_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 757706300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter below the required details",
+            "match": {
+              "location": "stepDefinition.i_enter_below_the_required_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name",
+                  "Address",
+                  "City",
+                  "State",
+                  "ZipCode",
+                  "CardType",
+                  "CreditCardNumber",
+                  "CardMonth",
+                  "CardYear",
+                  "NameOnCard"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "John Smith",
+                  "5th Cross Bengaluru",
+                  "Bengaluru",
+                  "Karnataka",
+                  "560017",
+                  "Visa",
+                  "400890047878",
+                  "09",
+                  "2028",
+                  "John Smith"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 520945700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on Purchase Flight",
+            "match": {
+              "location": "stepDefinition.i_click_on_Purchase_Flight()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32077000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I navigate to confirmation page",
+            "match": {
+              "location": "stepDefinition.i_navigate_to_confirmation_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31062400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I veriy the confirmationId",
+            "match": {
+              "location": "stepDefinition.i_veriy_the_confirmationId()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Flight ticket booking functionality",
+    "description": "",
+    "id": "flight-ticket-booking-functionality",
+    "keyword": "Feature",
+    "uri": "BlazeDemo Flight Booking Functionality.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]
