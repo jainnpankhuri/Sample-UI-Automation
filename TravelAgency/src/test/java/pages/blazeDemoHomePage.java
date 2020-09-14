@@ -71,7 +71,7 @@ public class blazeDemoHomePage {
 	
 	public blazeDemoHomePage() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\U6052092\\OneDrive - Clarivate Analytics\\Documents\\chromedriver.exe");
+				"src/test/java/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		PageFactory.initElements(driver, this);

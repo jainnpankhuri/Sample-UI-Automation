@@ -254,7 +254,7 @@ formatter.match({
   "location": "stepDefinition.navigatetoBlazeDemoUrl(String)"
 });
 formatter.result({
-  "duration": 12443217900,
+  "duration": 10931966800,
   "status": "passed"
 });
 formatter.match({
@@ -267,7 +267,7 @@ formatter.match({
   "location": "stepDefinition.enterDepartureCity(String)"
 });
 formatter.result({
-  "duration": 149275100,
+  "duration": 280776200,
   "status": "passed"
 });
 formatter.match({
@@ -280,63 +280,63 @@ formatter.match({
   "location": "stepDefinition.i_enter_destination_city(String)"
 });
 formatter.result({
-  "duration": 100048100,
+  "duration": 155277500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_click_on_Find_Flights()"
 });
 formatter.result({
-  "duration": 602664400,
+  "duration": 913549600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_navigate_to_Flight_details_Page()"
 });
 formatter.result({
-  "duration": 34479900,
+  "duration": 33638600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_choose_the_flight()"
 });
 formatter.result({
-  "duration": 455763800,
+  "duration": 566369800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_navigate_to_the_next_page_to_enter_passanger_details()"
 });
 formatter.result({
-  "duration": 34336200,
+  "duration": 40417600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_enter_below_the_required_details(DataTable)"
 });
 formatter.result({
-  "duration": 757706300,
+  "duration": 786644600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_click_on_Purchase_Flight()"
 });
 formatter.result({
-  "duration": 520945700,
+  "duration": 577456600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_navigate_to_confirmation_page()"
 });
 formatter.result({
-  "duration": 32077000,
+  "duration": 57101500,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_veriy_the_confirmationId()"
 });
 formatter.result({
-  "duration": 31062400,
+  "duration": 50786200,
   "status": "passed"
 });
 });
